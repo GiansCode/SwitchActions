@@ -1,0 +1,1 @@
+# SwitchActions plugin
