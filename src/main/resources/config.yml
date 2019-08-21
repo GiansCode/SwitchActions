@@ -1,0 +1,18 @@
+enabled_worlds:
+  - world
+
+swap_actions:
+  DIRT:
+    cancel: true
+    ignore_meta: true
+    require_permission: false
+    actions:
+      - "[MESSAGE] &aDirt"
+
+  # If you are using ALL, make sure to put it last in your list of actions
+  ALL:
+    cancel: true
+    ignore_meta: true
+    require_permission: false
+    actions:
+      - "[MESSAGE] &aALL"
