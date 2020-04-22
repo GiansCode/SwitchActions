@@ -1,6 +1,5 @@
 package io.samdev.switchactions;
 
-import io.samdev.actionutil.ActionUtil;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
@@ -81,6 +80,6 @@ class SwitchAction
 
 	void executeActions(Player player)
 	{
-		ActionUtil.executeActions(player, actions);
+		SwitchActions.getInstance().getActionUtil().executeActions(player, actions);
 	}
 }

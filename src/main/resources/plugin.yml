@@ -2,5 +2,4 @@ name: SwitchActions
 version: ${project.version}
 author: Mas281
 
-depend: [ActionUtil]
 main: io.samdev.switchactions.SwitchActions
